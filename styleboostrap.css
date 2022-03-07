@@ -69,7 +69,7 @@ header>img{
     align-items: center;
 }
 .map{
-    background-image: url(Archive/assets/img/map_bg.png);
+    background-image: url(/assets/img/map_bg.png);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -132,7 +132,7 @@ img.blanchire{
     justify-items: center;
     align-self: center;
     height: 200px;
-    background-image: url(Archive/assets/img/dzdzd.png);
+    background-image: url(/assets/img/dzdzd.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
