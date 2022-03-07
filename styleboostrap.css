@@ -1,5 +1,36 @@
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #ababab;
+    --bs-gray-dark: #7e7e7e;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  }
+
 .marine{
-    background-color: #27242b;
+    background-color: #252444;
+}
+.gray{
+    --bs-bg-opacity:1;
+    background-color: var(--bs-gray);
 }
 .white{
     color: #FFFF;
@@ -8,7 +39,124 @@
     font-family:  'Open Sans',Arial, sans-serif;
     color:#3d9f96
 }
-
+p{
+    margin:10px;
+}
 header>img{
     margin-top: -45px;
 }
+/*section app*/
+.logo{
+    display: flex;
+    margin: 0 20px;
+    padding: 20px 0;
+}
+.app{
+    justify-content: center;
+    margin: 0 22% 0 22%;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:250px;
+}
+.phone div{
+    width:250ppx;
+    height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    background-image: url(Archive/assets/img/map_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+p.lg{
+    margin:0;
+}
+/*section2*/
+
+.partie2 img{
+    width: 100%;
+    height: auto;
+}
+/* section3 */
+img.blanchire{
+    filter: brightness(0) invert(1);
+}
+/* sectiongray */
+.screen{
+    width:250px ;
+    height: 400px;
+}
+/* section blanche */
+
+.blanche{
+    margin: 15px 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* transformation des images en blanc */
+.blanche{
+    padding:0 5%;
+}
+img.blanchire{
+    filter: brightness(0) invert(1);
+}
+
+
+.tested2{
+    display: flex;
+    justify-content: space-between;
+}
+.tested2 img{
+    width: 200px;
+}
+.gris2{
+    color: #dfdfdf;
+    width: 400px;
+}
+.grey{
+    display: flex;
+    justify-content: space-around;
+}
+.tt{
+    padding: 0 50px 0 0;
+}
+.t_ordi  {
+    display: flex;
+    justify-items: center;
+    align-self: center;
+    height: 200px;
+    background-image: url(Archive/assets/img/dzdzd.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.t_ordi figure div {
+    margin-top: 40%;
+    height: 100%;
+}
+.Tel  {
+    display: flex;
+    justify-items: center;
+    align-self: center;
+    height: 200px;
+}
+.Tel figure img{
+    margin-top: 10%;
+    height: 100%;
+}
+/*footer*/
+footer{
+    justify-content: center;
+    margin: 20px 50px;
+}
+/* .rsofin{
+    margin-left: auto;
+    display: flex;
+    align-self: center;
+} */
