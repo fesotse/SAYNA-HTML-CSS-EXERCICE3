@@ -24,7 +24,9 @@
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   }
-
+body{
+    font-family: 'Raleway', Arial, sans-serif;
+}
 .marine{
     background-color: #252444;
 }
@@ -43,7 +45,7 @@ hr{
     color: #FFFF;
 }
 .green{
-    font-family:  'Open Sans',Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif, 'Raleway';
     color:#3d9f96
 }
 p{
@@ -87,7 +89,7 @@ p.lg{
 /*section2*/
 
 
-/* section3 */
+/* section3 */git 
 img.blanchire{
     filter: brightness(0) invert(1);
 }
@@ -128,6 +130,9 @@ img.blanchire{
     display: flex;
     justify-content: space-around;
 }
+.mr-20{
+    margin:2% 18%;
+}
 .tt{
     padding: 0 50px 0 0;
 }
@@ -164,3 +169,4 @@ footer{
     display: flex;
     align-self: center;
 } */
+
