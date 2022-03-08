@@ -28,6 +28,13 @@
 .marine{
     background-color: #252444;
 }
+hr{
+    height:1px;
+    color:#FFFF;
+    padding: 0;
+    margin: 0;
+    width:75%;
+}
 .gray{
     --bs-bg-opacity:1;
     background-color: var(--bs-gray);
@@ -79,10 +86,7 @@ p.lg{
 }
 /*section2*/
 
-.partie2 img{
-    width: 100%;
-    height: auto;
-}
+
 /* section3 */
 img.blanchire{
     filter: brightness(0) invert(1);
