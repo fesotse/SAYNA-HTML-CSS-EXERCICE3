@@ -140,14 +140,15 @@ img.blanchire{
     display: flex;
     justify-items: center;
     align-self: center;
+    width: 250px;
     height: 200px;
     background-image: url(/assets/img/dzdzd.png);
-    background-size: contain;
+    background-size:contain;
     background-repeat: no-repeat;
 }
 .t_ordi figure div {
     margin-top: 40%;
-    height: 100%;
+    height: 50%;
 }
 .Tel  {
     display: flex;
